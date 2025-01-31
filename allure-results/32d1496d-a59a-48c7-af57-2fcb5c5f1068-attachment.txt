@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "[data-test=\"add-to-cart-sauce-labs-backpack\"]"
+}
