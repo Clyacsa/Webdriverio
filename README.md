@@ -12,10 +12,14 @@ WebdriverIO Test Project
    git clone https://github.com/Clyacsa/Webdriverio.git
    cd Webdriverio
 2. Встановіть залежності:
+   ```bash
    npm install
 3. Запустіть тести:
-   npm test
+   ```bash
+   npm run wdio
 4. Запуск WebdriverIO в інтерактивному режимі:
+   ```bash
    npx wdio run wdio.conf.js
 5. Запуск конкретного тесту:
+   ```bash
    npx wdio run wdio.conf.js --spec ./test/specs/example.spec.js 
