@@ -3,5 +3,5 @@ node_modules/
 dist/
 allure-results/
 allure-report/
-.tmp\actual/
-test\specs\__snapshots___/
+.tmp/actual/
+
