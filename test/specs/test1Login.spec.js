@@ -3,7 +3,7 @@ const LoginPage = require('../pages/login.page');
 describe('Login Tests', () => {
     
   beforeEach(async () => {
-    await browser.url('https://www.saucedemo.com/');
+    await LoginPage.open();
   });
  
   it('Should login with valid data and check the page title', async () => {
@@ -15,7 +15,7 @@ describe('Login Tests', () => {
 
   it('Should login with valid data and display cart link', async () => {
     await LoginPage.loginUser('standard_user', 'secret_sauce');
-    const cartLink = await $('[data-test="shopping-cart-link"].shopping_cart_link').isExisting();
-    expect(cartLink).toBe(true);
+        const cartLinkDisplayed = await LoginPage.isCartLinkDisplayed();
+        expect(cartLinkDisplayed).toBe(true);
   })
 })

@@ -1,3 +1,7 @@
 node_modules/
 .env
 dist/
+allure-results/
+allure-report/
+.tmp\actual/
+test\specs\__snapshots___/
