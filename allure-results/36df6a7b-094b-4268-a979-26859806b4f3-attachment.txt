@@ -1,3 +1,0 @@
-{
-  "text": "standarD_user"
-}

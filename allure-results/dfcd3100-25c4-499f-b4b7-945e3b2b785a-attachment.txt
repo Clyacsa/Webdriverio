@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "[data-test=\"shopping-cart-link\"].shopping_cart_link"
-}
